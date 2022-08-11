@@ -1,2 +1,13 @@
 hello world 
 how are you
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bharath-pod
+spec:  
+  containers: 
+  - image: 7406738953/sharath:latest
+    name: bharath-test  
+    ports:   
+    - containerPort: 80  
